@@ -1,0 +1,51 @@
+*{margin: 0;padding:0;box-sizing: border-box;}
+header{
+    width:100%;
+    height:100vh;
+}
+nav{
+    height:5.5vh;
+    width:86%;
+    background-color:black;background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 7%;
+    margin-top:25px;
+    display:flex;justify-content: center;
+    align-items: center;
+    border-radius:30px;
+}
+nav .main-nav{
+    color:white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Potta One', cursive;
+   
+}
+.my-math{
+    margin-left: 10%;margin-top:2%;
+    font-size: 125%;
+    letter-spacing: 2px;
+    font-family: 'Lobster Two', cursive;   
+
+     
+}
+.my-math .lee{
+    letter-spacing: normal;
+    color:orange;
+    font-family: none;
+}
+.my-math p{
+    padding:10px 10px ;color:navy;
+    font-family: none;
+}
+@media(max-width:450px){
+    .my-math{
+        font-size:67%;
+    }
+}
+@media(max-width:325px){
+    .my-math{
+        font-size: 55%;
+    }
+}
+
