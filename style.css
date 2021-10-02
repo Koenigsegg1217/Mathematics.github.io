@@ -10,7 +10,8 @@ nav{
     background-repeat: no-repeat;
     margin-left: 7%;
     margin-top:25px;
-    display:flex;justify-content: center;
+    display:flex;
+    justify-content: center;
     align-items: center;
     border-radius:30px;
 }
